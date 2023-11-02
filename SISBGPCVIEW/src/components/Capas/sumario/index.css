@@ -1,0 +1,59 @@
+#sumario{
+  margin: 20px 0px;
+
+}
+.container-sumario{
+  width: 715px;
+  margin: 0px auto;
+  font-family: 'Times New Roman', Times, sans-serif;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.container-sumario h1 {
+  background-color: rgba(175, 139, 47, 0.781);
+  text-align: center;
+  font-size: 24px;
+  font-weight:bold;
+  margin: 50px 20px 60px;
+  padding: 0;
+}
+
+.container-sumario h2{
+  font-family: 'Times New Roman', Times, sans-serif;
+  margin: 30px 20px;
+  background-color: rgb(196, 180, 140);
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(1, 1, 95);
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.container-sumario h3{
+  margin: 10px 50px ;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.container-sumario ol{
+  margin-left: 50px;
+  list-style: none;
+
+}
+
+.container-sumario p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+.container-sumario li {
+  margin-left: 100px;
+  color: black;
+  font-size: 20px;
+  font-weight:600;
+}

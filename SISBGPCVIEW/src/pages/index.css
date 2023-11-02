@@ -1,0 +1,102 @@
+.body{
+  padding: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.item-lista{
+  position: relative;
+  margin: 10px 0 0 0;
+}
+
+/* Buttons */
+.button-list {
+  padding: 0 !important;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-criar {
+  margin: 0px 0px 20px 15px;
+  background-color: rgb(0, 21, 42)  !important ;
+  color: aliceblue !important;
+  background-color: null;
+  border-color: null;
+}
+
+.button-tab {
+  margin: 0px ;
+  background-color: rgb(0, 21, 42)  !important ;
+  color: aliceblue !important;
+  background-color: null;
+  border-color: null;
+}
+
+.button-type {
+  visibility: hidden;
+  height: 15px;
+  padding: 0 8px;
+  margin: 0 0 0 20px;
+  border: none;
+  font-size: 8px;
+  font-weight: 500;
+  border: 1px solid rgb(85, 78, 78);
+}
+
+.item-lista:hover .button-type{
+  visibility: visible;
+}
+
+
+.button-upload{
+  top: 95%;
+  right:7%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  border: .5px solid rgb(112, 112, 107);
+  display: inline-block;
+}
+
+
+/* Documents */
+.body-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+
+
+.icon-wrapper {
+  margin-left: 15px;
+  visibility: hidden !important;
+}
+
+.item-lista:hover .icon-wrapper {
+  visibility: visible !important ;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn-primary:not(:disabled):hover {
+  color: black;
+  background-color: transparent;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn-primary {
+  color: black;
+  background-color: transparent;
+  box-shadow: none;
+
+}
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 3px;
+}

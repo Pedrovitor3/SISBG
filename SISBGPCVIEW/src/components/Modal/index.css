@@ -1,0 +1,249 @@
+.numBoletim{
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* Ícone de adição dentro do botão */
+.button-modal svg {
+  margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+.dropzone{
+  height: 200px;
+  background: #e1faec;
+  border-radius: 10px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  outline: 0;
+}
+
+dropzone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dropzone p {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  border-radius: 10px;
+  border: 1px dashed #4ecb79;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.ant-modal-content {
+  padding: 2px !important;
+}
+
+.ant-modal-body {
+  padding: 2.5px !important;
+}
+
+.ant-modal-title{
+  color: aliceblue !important;
+}
+.ant-modal-header {
+  background-color: rgb(0, 21, 42)  !important ;
+  padding: 15px !important;
+}
+
+/* fechar no x */
+.ant-modal-close-x {
+  color: aliceblue ;
+}
+
+.ant-modal-close-x:hover {
+  background: rgb(50, 67, 83) ;
+
+}
+
+.button-modal svg {
+ margin: 0px !important;
+ text-align: start !important;
+ box-sizing: border-box;
+}
+
+.icone .anticon svg {
+  display: inline-block;
+  margin: 0px -6px !important;
+
+}
+
+
+
+/* botão cancelar do modal */
+button.ant-btn-default{
+  background-color: rgb(0, 21, 42)  !important ;
+  color: aliceblue !important;
+  background-color: null;
+  border-color: null;
+
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn.ant-btn-sm {
+  font-size: 12px;
+  height: 24px;
+  padding: 0px 7px;
+  border-radius: 3px;
+  background-color: rgb(0, 21, 42)  !important ;
+  color: aliceblue !important;
+}
+
+/* rodapé do modal */
+.ant-modal-footer {
+  background: transparent !important ;
+  height: 67px !important;
+  padding-right: 30px !important;
+
+}
+
+
+
+.ant-btn-block {
+  background:  rgb(0, 21, 42)  !important;
+  color: aliceblue !important;
+}
+
+/* botoẽs de crição de unidade, obejto */
+.button-units{
+  padding: 4px 6px!important;
+  }
+.button-objects{
+  padding: 4px 6px!important
+}
+.button-objectReourses{
+  padding: 4px 11px!important
+}
+
+
+/* CSS datas do recursos */
+
+.input-mask-date:hover {
+  border: 1px solid rgb(0, 21, 42)!important;
+  border-color: #092136 !important;
+  border-inline-end-width: 1px !important;
+  z-index: 1 !important;
+
+}
+.input-mask-date:focus {
+  border-color: #092136 !important;
+  box-shadow: 0 0 0 2px rgb(3 14 21 / 64%)!important;
+  border-inline-end-width: 1px !important;
+  outline: 0 !important;
+}
+
+.input-mask-date{
+  padding: 7px 18px !important;
+  font-size: 14px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  color: rgba(8, 8, 8, 0.88) !important;
+  background-color: #ffffff !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: #d9d9d9 !important;
+  border-radius: 3px !important;
+  transition: all 0.2s !important;
+  width: 100% !important;
+
+}
+
+/* estilo da tabela */
+.ant-table-wrapper .ant-table-container table>tr:first-child >*:first-child {
+  background-color:  rgb(1, 20, 39) !important;
+
+}
+
+
+td.ant-table-cell {
+  padding: 5px !important;
+  font-size: 13px;
+}
+
+
+/* cor da linha de baixo databela de recursos */
+th.ant-table-cell {
+  background: rgba(83, 83, 83, 0.25) !important;
+  border-bottom: 1px solid rgb(250, 250, 250) !important;
+
+}
+/* cor da linha dos titulos */
+.custom-table-row {
+  background-color: rgba(121, 117, 117, 0.25);
+}
+.custom-table thead tr {
+  background-color:  rgb(0, 21, 42);
+  color: aliceblue;
+}
+
+/* cor titulo, pesquisa, e ação */
+.ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-rcpgve).ant-table-wrapper .ant-table-thead >tr>td {
+  color: aliceblue !important;
+
+}
+.ant-table-container table>thead>tr:first-child >*:last-child {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-filter-trigger {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-column-sorters::after {
+  color: aliceblue !important;
+}
+.ant-table-wrapper .ant-table-column-sorter {
+  color: aliceblue !important;
+}
+
+
+
+element.style {
+  margin: 5px !important ;
+  background-color: rgb(255, 255, 255) !important;
+  overflow-y: auto !important;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 10px !important;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
+  margin-bottom: 0;
+  margin-inline-start: 8px;
+  color: #fff;
+  background-color: #00152A;
+
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-btn-primary:not(:disabled):hover {
+  color: black;
+  background-color: transparent;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-footer {
+  text-align: end;
+  background: transparent;
+  margin: 0;
+  margin-right: 20px !important;
+}
+
+
+
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-upload-wrapper .ant-upload-list .ant-upload-list-item:hover .ant-upload-list-item-action {
+    opacity: 0;
+    color: rgba(0, 0, 0, 0.88);
+}

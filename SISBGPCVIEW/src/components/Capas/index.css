@@ -1,0 +1,104 @@
+ #p1, #p2, #p3, #p4, #p5, #p5, #p6, #p7, #p8{
+  border: 1px solid black;
+  width: 715px;
+  margin: auto;
+  font-family: 'Times New Roman', Times, sans-serif;
+
+}
+
+
+.container-part .classificacao {
+  margin: 10px 50px ;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  width: 714px;
+}
+
+.container-part .camada {
+  margin: 10px 120px ;
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+
+
+.container-part{
+  width: 719px;
+  border-top: 0;
+  margin:  auto;
+  /*margin: 0px 0 0 10px; */
+}
+
+.container-part h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 25px 100px;
+}
+
+.container-part h2{
+  font-family: 'Times New Roman', Times, sans-serif;
+  margin: 20px 20px;
+  background-color: rgb(180, 167, 135);
+
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+
+
+.container-part p{
+  font-size: 14px;
+  margin: 10px  20px;
+  font-weight: 500;
+}
+
+.container-part .semALteração{
+  line-height: 1.4;
+  font-size: 15px;
+  margin: 10px 10px 20px 20px;
+  font-weight: bold;
+}
+
+.container-part .estilo1{
+  background-color: rgba(192, 187, 176, 0.589);
+  margin: 10px 10px 30px 120px;
+  font-weight: 600;
+}
+
+.container-part .estilo2{
+  background-color: #c29a4c96;
+  margin: 20px 10px 50px 80px;
+  font-weight: 600;
+}
+
+
+
+
+/*botoes modal */
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-footer {
+  text-align: end;
+  background: transparent;
+  margin: 0 ;
+  margin-right: 80px;
+
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 20px 24px;
+
+}

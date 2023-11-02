@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  api_bg:
+    container_name: backend_bg
+    build: .
+    ports:
+      - 3010:3010
+    env_file: .env
+    volumes:
+      - ./:/code
+      - node_modules:/code/node_modules
+    networks:
+      - backend_bg
+    depends_on:
+      - db_backend_bg
+    environment:
+      DB_HOST: db_backend_bg  
+  db_backend_bg:
+    container_name: db_backend_bg
+    image: postgres:14.1-alpine
+    ports:
+      - 5432:5432
+    #restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    env_file: .env
+    volumes:
+      - ./src/database/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh:ro
+      - ./src/database:/var/lib/postgresql/database
+    networks:
+      - backend_bg
+volumes:
+  node_modules:
+  database:
+    driver: local
+
+networks:
+  backend_bg:

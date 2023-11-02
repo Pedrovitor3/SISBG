@@ -1,0 +1,110 @@
+.table-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.custom-table {
+  border: 1px solid #000; /* Add a 1px solid black border */
+  border-collapse: collapse; /* Use border-collapse to prevent double borders */
+
+}
+
+.table-container .unidade {
+  margin: 0;
+  text-align: center;
+  border: 2px rgb(0, 0, 0) solid !important;
+  border-collapse: collapse; /* Use border-collapse to prevent double borders */
+  color: rgba(255, 255, 255, 0.788) !important;
+  text-decoration: none;
+  border-bottom: none !important;
+
+}
+
+/* estilo da tabela */
+.ant-table-wrapper .ant-table-container table>tr:first-child >*:first-child {
+  background-color:  rgb(0, 0, 0) !important;
+}
+
+/* cor da linha de baixo databela de recursos */
+th.ant-table-cell {
+  background: rgba(167, 63, 2, 0) !important;
+  padding: 10px;
+
+}
+
+.custom-table thead tr {
+  background-color: rgba(184, 174, 148, 0.918);
+}
+.custom-table tbody td {
+  white-space: normal; /* Permite que o texto quebre para a próxima linha */
+  height: auto; /* Permite que a altura da célula se ajuste ao conteúdo */
+}
+/* cor titulo, pesquisa, e ação */
+.ant-table-thead >tr>th,
+.ant-table-wrapper .ant-table-thead >tr>td {
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid black;
+  border-collapse: collapse !important;
+}
+
+.ant-table-wrapper .ant-table-tbody >tr >th,
+.ant-table-wrapper .ant-table-tbody >tr >td {
+  transition: background 0.2s, border-color 0.2s;
+  border: 1px solid black;
+  border-collapse: collapse !important;
+}
+
+
+.ant-table-container table>thead>tr:first-child >*:last-child {
+  color: black !important;
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-thead >tr>td {
+  position: relative;
+  color: rgb(0,21,42);
+  font-weight: 600;
+  text-align: start;
+  background: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+  font-family: 'Times New Roman', Times, serif !important;
+  text-align: center;
+
+}
+
+.custom-table thead tr th,
+.custom-table tbody tr td {
+  line-height: 1;
+}
+
+
+.ant-table-wrapper .ant-table-tbody >tr >th, .ant-table-wrapper .ant-table-tbody >tr >td {
+    transition: background 0.2s, border-color 0.2s;
+    border: 1px solid black;
+    border-collapse: collapse !important;
+}
+:where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody >tr >th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody >tr >td {
+    transition: background 0.2s,border-color 0.2s;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper tfoot>tr>td {
+    position: relative;
+    padding: 16px 16px;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    color: #000;
+  text-align: center;
+}
+
+
+:where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-i0uh1t).ant-table-wrapper tfoot>tr>td {
+  position: relative;
+  padding: 10px !important;
+  overflow-wrap: break-word;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+
